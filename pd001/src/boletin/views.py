@@ -33,7 +33,7 @@ def inicio(request):
 		obj = Registrado.objects.create(email=mail, nombre=name)
 		"""
 	
-	return render(request, "inicio.html", context)
+	return render(request, "base.html", context)
 
 def contact(request):
 	form = ContactForm(request.POST or None)
@@ -41,11 +41,15 @@ def contact(request):
 		email = form.cleaned_data.get("email")
 		mensaje = form.cleaned_data.get("mensaje")
 		nombre = form.cleaned_data.get("nombre")
+		asunto = 'Form de Contacto'
+		email_from = settings.EMAIL_HOST_USER
+		email_to = [email_from, "jesus_omega97@hotmail.com", "anjeda@yahoo.com"]
+		mensaje_email = "%s: %s enviado por: %s " %(nombre, mensaje, email)
 		send_mail(asunto,
 			mensaje_email,
 			email_from,
-			[email_to],
-			fail_silently=False
+			email_to,
+			fail_silently=True 
 			)
 
 	context = {
