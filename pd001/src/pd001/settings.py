@@ -39,6 +39,7 @@ EMAIL_USE_TLS = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
+    'django.contrib.sites',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'boletin',
     'crispy_forms',
+    'registration',
 ]
 
 MIDDLEWARE = [
@@ -60,6 +62,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'pd001.urls'
 
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_AUTO_LOGIN = True
+SITE_ID = 1
+LOGIN_REDIRECT_URL = '/'
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
 
 TEMPLATES = [
