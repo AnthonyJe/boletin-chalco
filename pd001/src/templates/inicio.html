@@ -1,24 +1,42 @@
  {% extends "base.html" %}
-{% block jumbotron %}
-  
- <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <h1>Navbar example</h1>
-        <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
-        <p>To see the difference between static and fixed top navbars, just scroll.</p>
+ {% load crispy_forms_tags %}
+{% block tittle %}Inicio{% endblock %}
+{% block jumbotron_content %}
+<div class="row">
+	<div class="col-sm-6">
+  		<h2>Incendio en mercado de Chalco daña 40 locales</h2>
+        <p>La madrugada del 03/01/2017 se registró un incendio en el mercado de Chalco, el cual afectó más de 40 locales.</p>
+        <p>Bomberos de Ixtapaluca y Cocotitlán acudieron al lugar de los hechos para controlar el incendio, cuyas llamas alcanzaron hasta 20 metros de altura.</p>
         <p>
-          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs &raquo;</a>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">Unete &raquo;</a>
         </p>
-      </div>
+    </div>
+   	<div class="col-sm-6" style="background-color:black; height:300px; "></div>
+</div>        
 {% endblock %}
 {% block content %}
-{% block tittle %}Inicio{% endblock %}
-<h1> BIENVENIDO!</h1>
-{{ el_titulo }}
+<div class="row">
+	<div class="col-sm-3 pull-right">
+		<h1> BIENVENIDO!</h1>
+		{{ el_titulo }}
+		<hr/>
+		<br/>
+		<form method="POST" action="">{% csrf_token %}
+		{{ el_form|crispy }}
+		<input class="btn btn-primary" value="Inscribirse &raquo;">
+		</form>
+	</div>
+<div class="col-sm-3">
+<p>VALLE DE CHALCO.8 de enero de 2017.- A las 5 de la mañana, cuerpos de auxilio acudieron al kilómetro 26 de la autopista México-Puebla, para apagar el fuego que consumía la mercancía que transportaba el remolque de un tráiler.</p>
+</div>
+<div class="col-sm-3">
+<p>VALLE DE CHALCO, Méx. 5 de enero 2017.- Autoridades municipales de Ixtapaluca y Valle de Chalco impidieron el saqueo en plazas comerciales de Sendero, luego de que varios vándalos se habían concentrado para llevarse aparatos electrodomésticos</p>
+</div>
+<div class="col-sm-3">
+<p>VALLE DE CHALCO, Méx. , 4 de enero del 2017.- Unas 16 gasolinerías fueron bloqueadas por trabajadores dedicados a la recolección de basura y colonos como una forma pacífica de estar en contra del gasolinazo de Peña Nieto. </p>
+</div>
+</div>
 <hr/>
-<br/>
-<form method="POST" action="">{% csrf_token %}
-{{ el_form.as_p}}
-<input type="submit" value="Registrame">
-</form>
+<hr/>
+
 {% endblock %}
