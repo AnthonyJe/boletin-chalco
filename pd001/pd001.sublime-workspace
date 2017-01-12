@@ -1,0 +1,316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ur",
+				"urlpatterns"
+			],
+			[
+				"D",
+				"DEBUG"
+			],
+			[
+				"Conta",
+				"ContactForm"
+			],
+			[
+				"Contact",
+				"ContactForm"
+			],
+			[
+				"C",
+				"Contacto"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"Mode",
+				"ModelForm\tModelForm"
+			],
+			[
+				"Mod",
+				"ModelForm\tModelForm"
+			],
+			[
+				"Re",
+				"RegModelForm"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"view",
+				"views"
+			],
+			[
+				"list",
+				"list_display"
+			],
+			[
+				"au",
+				"auto_now"
+			],
+			[
+				"valor",
+				"valor"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"resut",
+				"result"
+			],
+			[
+				"var",
+				"var1"
+			],
+			[
+				"va",
+				"var2"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 191.0,
+		"last_filter": "install pac",
+		"selected_items":
+		[
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 414.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/mi_proyecto",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/static_env",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/momos",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/templates",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/templates/momos",
+		"/C/Users/ANTONIO/Documents/pd001",
+		"/C/Users/ANTONIO/Documents/pd001/src"
+	],
+	"file_history":
+	[
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/mi_proyecto/urls.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/mi_proyecto/settings.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/templates/inicio.html",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/templates/momos/momos.html",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/templates/base.html",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/templates/form.html",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/boletin/views.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/boletin/admin.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/templates/index.html",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/momos/settings.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/momos/urls.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/give-me-momos/templates/momos/new_momo.html",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/boletin/models.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/boletin/forms.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/CashFlow/supplies/views.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mi_proyecto/mi_proyecto/mi_proyecto/templates/inicio.html",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/CashFlow/supplies/models.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/CashFlow/supplies/migrations/__init__.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mini-camp-2016/Python/ejercicios-alumnos/fibonacci/fibonacci_Antonio.py",
+		"/C/Users/ANTONIO/Documents/busqueda_antonio.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mini-camp-2016/Python/ejercicios-alumnos/Busqueda/Lineal/lineal_Baruch.py",
+		"/C/Users/ANTONIO/Documents/fibonacci_Antonio.py",
+		"/C/Users/ANTONIO/Documents/busqueda.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mini-camp-2016/Python/ejercicios-alumnos/fibonacci/fibonacci_ignacio.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mini-camp-2016/Python/ejercicios-alumnos/piedra-papel/pptls_Antonio.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mini-camp-2016/Python/ejemplos/Factorial/factorial.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mini-camp-2016/Python/ejemplos/Juegos/caguamas.py",
+		"/C/Users/ANTONIO/Documents/99 bottles of beer on the wall,",
+		"/C/Users/ANTONIO/Documents/bottles.py",
+		"/C/Users/ANTONIO/Documents/botellas.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/python/basico_python.py",
+		"/C/Users/ANTONIO/Documents/minicamp 2016/python/basico_python.py",
+		"/C/Users/ANTONIO/Documents/minicamp_2016/git/mini-camp-2016/Python/Strings/prueba_String.py"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"    '/var/www/static/',\n",
+			"/',\n",
+			"base",
+			" nombre = forms.CharField()\n    email = forms.EmailField()\n    mensaje = forms.CharField(widget=forms.Textarea)",
+			"Aqui te registras ↓↓↓↓ ♥",
+			"post",
+			"fibonacci",
+			"0.5",
+			"pc",
+			"rayas",
+			"x",
+			"opciones",
+			"\"",
+			"for i in range(0,99):\n    print(\n    \ti, \"bottles of beer on the wall,\\n\",\n\t\ti, \"bottles of beer,\\n\",\n\t\t\"Take one down and pass it arraund,\\n\",\n\t\ti-1, \"bottles of beer on the wall.\\n\\n\")\n",
+			"aroud"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 24.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pd001.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
